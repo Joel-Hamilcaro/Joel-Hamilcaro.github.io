@@ -20,6 +20,7 @@
 
       var english = false;
       if (english){
+        var indexhtml = "index.html";
         var home = "Home";
         var about = "About";
         var about_text = "Student in data science, I am preparing a double Master's degree (in Mathematics and Computer Science) at the University of Paris. I am specialized in artificial intelligence (machine learning, deep learning, natural language processing), applied mathematics (multivariate statistics, optimization, complexity theory and graph theory), databases and Big Data architectures.";
@@ -88,6 +89,7 @@
         var forum75keywords = "Web programming, Databases, HTML, CSS, PHP, MySQL";
       }
       else {
+        var indexhtml = "index_fr.html";
         var home = "Accueil";
         var about = "À propos";
         var about_text = "Étudiant en science des données, je prépare un double Master (en Mathématique et Informatique) à l'Université de Paris. Je suis spécialisé en intelligence artificielle (machine learning, deep learning, traitement automatique des langues), mathématiques appliquées (statistiques multivariées, optimisation, théorie de la complexité et théorie des graphes), bases de données et architectures « Big Data »."
@@ -162,7 +164,7 @@
     <!-- Nav bar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <!-- Nav bar title -->
-      <a class="navbar-brand" href="#" style="color : #FFFFFF;">Joël Hamilcaro</a>
+      <a class="navbar-brand" onload="this.href=indexhtml;";"style="color : #FFFFFF;">Joël Hamilcaro</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color : white;">
         <span class="navbar-toggler-icon"></span>
       </button>
