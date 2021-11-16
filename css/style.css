@@ -1,0 +1,203 @@
+/* ------------------------------------------------- */
+
+body {
+  /*background-color: rgb(45, 61, 90);*/
+  /*background-image: url("../res/img/wall2.png");*/
+  width: 100%;
+  height: 100%;
+  font-family:arial,sans-serif;
+  background-color: white;
+}
+
+.projects-content{
+  background-image: url("../res/img/wall2.png");
+  border-top: 1rem ridge;
+  border-bottom: 1rem ridge;
+  padding-top: 10px;
+}
+
+emph{
+  font-weight: bold;
+}
+
+h5{
+  color : black;
+}
+
+.white h5{
+  color : seagreen;
+}
+
+.white a{
+  color : seagreen;
+}
+
+.white a:hover{
+  color : springgreen;
+}
+
+
+.dropdown-item{
+  background-color: inherit;
+  color:white;
+}
+
+.dropdown-item:hover{
+  background-color: white;
+  color:black;
+}
+h4
+{
+  color:white;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h3{
+  font-size: 35px;
+  color: white;
+}
+.navbar
+{
+  background-color: rgba(0,0,0,1);
+  border-bottom: solid;
+  border-color: white;
+}
+
+.navbar-brand
+{
+  color : seagreen;
+}
+
+a{
+  font-weight: bold;
+}
+
+
+a:hover{
+  font-weight: bold;
+}
+
+a:active{
+  /*outline:none;*/
+  font-weight: bold;
+  text-decoration-line: none;
+}
+
+img{
+  border: solid;
+  border-color: rgba(0,0,0,0);
+  border-width: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.card{
+  border: solid;
+  border-color: white;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  text-align: left;
+}
+
+.card:hover{
+  background-color: black;
+  color: white;
+}
+
+.card:active{
+  border: solid 0.3rem;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+.card.disabled{
+  border: solid;
+  border-color: white;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+}
+
+.card.disabled span{
+  /* color : rgba(55,250,50,1); */
+  font-weight: bold;
+}
+
+.card.disabled span.private{
+  color : rgba(255,50,50,1);
+  font-style: italic;
+}
+
+/* .card.disabled:hover{
+  border: solid;
+  border-color: white;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+} */
+
+.card.disabled:active{
+  font-weight: normal;
+}
+
+
+#carouselExampleIndicators{
+  border: solid;
+  border-color: white;
+  background-color: rgba(0,0,0,0.6);
+}disabled
+
+div.carousel-caption{
+  text-align: justify;
+}
+
+div.carousel-text {
+  width:500px;
+  height:250px;
+  min-width:0px;
+  min-height:0px;
+  max-width:500px;
+  max-height:500px;
+  overflow:hidden;
+  display:block;
+}
+
+div.carousel-replace {
+  border-color: white;
+  text-align: center;
+  /*background-image: linear-gradient(rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%);*/
+}
+
+.white{
+  background-color:white;
+  color: rgb(45, 61, 90);
+}
+
+div.carousel-replace p{
+  text-align: center;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+.it{
+  font-style: italic;
+}
+
+.card-img-top{ /*Keep image ratio*/
+  object-fit:cover;
+  width: 100%;
+  height: 200px;
+}
+
+#contact{
+  background:white;
+}
