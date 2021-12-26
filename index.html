@@ -43,11 +43,13 @@
           var NLPmldescriptor = " ";
           var NLPmlkeywords = "Python, Jupyter, Scikit-learn, Tensorflow, NLP";
           var MLturbine = "Machine Learning: Wind turbine predictions";
-          var MLturbineprivate = "Available at the end of the academic semester"
           var MLturbinedescriptor = "Use of different machine learning techniques to predict the energy produced by wind turbines";
           var MLturbinekeyword = "Python, Jupyter, Scikit-learn";
+          var MLturbinehtml = "Browser display";
+          var MLturbinecode = "GitHub repository";
+          var MLclotheshtml = "Browser display";
+          var MLclothescode = "GitHub repository";
           var MLclothes = "Deep Learning: Clothing classification";
-          var MLclothesprivate = "Available at the end of the academic semester"
           var MLclothesdescriptor = "Using a convolutional neural network to detect different types of clothing from photos.";
           var MLclotheskeywords = "Python, Jupyter, Tensorflow, Keras";
           var katas = "Statistical study of kata competitions";
@@ -127,6 +129,10 @@
           var MLturbineprivate = "Disponible à la fin du semestre universitaire"
           var MLturbinedescriptor = "Utilisation de différentes techniques de machine learning pour prédire l'énergie produite par des turbines éoliennes";
           var MLturbinekeyword = "Python, Jupyter, Scikit-learn";
+          var MLturbinehtml = "Affichage Web";
+          var MLturbinecode = "Répertoire GitHub";
+          var MLclotheshtml = "Affichage Web";
+          var MLclothescode = "Répertoire GitHub";
           var MLclothes = "Deep Learning: Classification de vêtements";
           var MLclothesprivate = "Disponible à la fin du semestre universitaire"
           var MLclothesdescriptor = "Utilisation d'un réseau neuronal convolutif pour détecter différents types de vêtements à partir de photos.";
@@ -330,15 +336,25 @@
           <div class="card disabled rounded-0 shadow">
             <img class="card-img-top img-fluid" src="res/img/eolienne.jpg" alt="turbines">
             <div class="card-body">
-              <span class="private card-title"><script>
+              <span class="card-title"><script>
                       document.write(MLturbine);
-              </script></span>
-              <br><span class="badge badge-secondary">  <script>
-                        document.write(MLturbineprivate);
-                </script></span><p></p>
+              </script></span><p></p>
+
                 <script>
                         document.write(MLturbinedescriptor);
                 </script>
+                <ul>
+                  <li><a href="https://nbviewer.org/github/Joel-Hamilcaro/Predicting-wind-energy/blob/main/notebook_dm1eol-HAMILCARO_Joel-TU_Jie.ipynb">
+                    <script>
+                            document.write(MLturbinehtml);
+                    </script>
+                  </a>
+                  <li><a href="https://github.com/Joel-Hamilcaro/Predicting-wind-energy">
+                    <script>
+                            document.write(MLturbinecode);
+                    </script>
+                  </a>
+                </ul>
                 <footer class="blockquote-footer"><script>document.write(keywords)</script> : <cite title="Source Title"><script>
                         document.write(MLturbinekeyword);
                 </script></cite></footer>
@@ -350,15 +366,25 @@
           <div class="card disabled rounded-0 shadow">
             <img class="card-img-top img-fluid" src="res/img/vetements.jpg" alt="clothes">
             <div class="card-body">
-              <span class="private card-title"><script>
+              <span class="card-title"><script>
                       document.write(MLclothes);
-              </script></span>
-              <br><span class="badge badge-secondary">  <script>
-                        document.write(MLclothesprivate);
-                </script></span><p></p>
+              </script></span><p></p>
+
                 <script>
                         document.write(MLclothesdescriptor);
                 </script>
+                <ul>
+                  <li><a href="https://nbviewer.org/github/Joel-Hamilcaro/Classification-de-vetements/blob/main/Joel-HAMILCARO_Jie-TU_fashion_mnist.ipynb">
+                    <script>
+                            document.write(MLclotheshtml);
+                    </script>
+                  </a>
+                  <li><a href="https://github.com/Joel-Hamilcaro/Classification-de-vetements">
+                    <script>
+                            document.write(MLclothescode);
+                    </script>
+                  </a>
+                </ul>
                 <footer class="blockquote-footer"><script>document.write(keywords)</script> : <cite title="Source Title"><script>
                         document.write(MLclotheskeywords);
                 </script></cite></footer>
@@ -372,13 +398,13 @@
             <div class="card-body">
               <span class="private card-title"><script>
                       document.write(NLPml);
-              </script></span>
+              </script></span><p></p>
               <br><span class="badge badge-secondary">  <script>
                         document.write(NLPmlprivate);
                 </script></span><p></p>
                 <script>
                         document.write(NLPmldescriptor);
-                </script>
+                </script><p></p><br>
                 <footer class="blockquote-footer"><script>document.write(keywords)</script> : <cite title="Source Title"><script>
                         document.write(NLPmlkeywords);
                 </script></cite></footer>
